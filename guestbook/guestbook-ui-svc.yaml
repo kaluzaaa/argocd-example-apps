@@ -28,7 +28,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: argocd-guestbook.acc.kaluzny.io
+  - host: argocd-guestbook00.acc.patoarchitekci.io
     http:
       paths:
       - path: /
