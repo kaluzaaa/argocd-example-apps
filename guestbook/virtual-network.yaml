@@ -1,0 +1,11 @@
+apiVersion: network.azure.com/v1api20201101
+kind: VirtualNetwork
+metadata:
+  name: vnet-aso-test
+spec:
+  location: swedencentral
+  owner:
+    name: rg-aso-test
+  addressSpace:
+    addressPrefixes:
+    - "10.100.0.0/16"
